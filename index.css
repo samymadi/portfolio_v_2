@@ -23,6 +23,7 @@ header {
 
 
 nav{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -87,7 +88,9 @@ nav ul li {
     cursor: pointer;
 }
 
-
+nav img {
+    cursor: pointer;
+}
 
 
 .selected_bar{
@@ -157,7 +160,8 @@ nav ul li {
         
     }
 
-    header #close_menu {
+    nav img {
+
         display: none;
     }
 
@@ -183,9 +187,8 @@ nav ul li {
         line-height: 50px;
     }
 
-    .navigation_back  {
+    nav img {
         position: absolute;
-        cursor: pointer;
         right: 30px;
         top: 25px;
     }
