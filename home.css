@@ -118,7 +118,7 @@
     
     
     .contact_social{
-        position: static;
+        display: none;
     }
 }
 
