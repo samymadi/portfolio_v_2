@@ -1,107 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible"
+        content="IE=edge" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0" />
     <title>Sam' portfolio</title>
 
+    <link rel="stylesheet"
+        href="index.css" />
+    <link rel="stylesheet"
+        href="home.css" />
+    <link rel="stylesheet"
+        href="about.css" />
+    <link rel="stylesheet"
+        href="Skills.css" />
+    <link rel="stylesheet" href="Projets.css">
 
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="about.css">
+    <!-- icons -->
+    <script src="https://unicons.iconscout.com/release/v4.0.0/script/monochrome/bundle.js"></script>
 
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com" />
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+        rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap"
+        rel="stylesheet" />
+        <script src="./Component.js"
+        defer></script>
+    </head>
 
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet"></head>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
-    <body>
-    
+                <div class="selected_bar selected_bar1"></div>
+                <div class="selected_bar selected_bar2"></div>
+                <div class="selected_bar selected_bar3"></div>
+                <div class="selected_bar selected_bar4"></div>
+                <div class="selected_bar selected_bar5"></div>
+            </ul>
+        </nav>
 
+        <img id="close_menu"
+            src="./assets/menu.png" />
 
-        <header>
-                <nav>
-                    <ul>
-                        <li> <a href="#">Home</a> </li>
-                        <li> <a href="#about">About</a> </li>
-                        <li> <a href="">Skills</a> </li>
-                        <li> <a href="">Services</a> </li>
-                        <li> <a href="">Experiences</a> </li>
-                        
-                        <div class="selected_bar selected_bar1"></div>
-                        <div class="selected_bar selected_bar2"></div>
-                        <div class="selected_bar selected_bar3"></div>
-                        <div class="selected_bar selected_bar4"></div>
-                        <div class="selected_bar selected_bar5"></div>
-                        
-                    </ul>
-                    
-                </nav>
+        <a href="#"
+            class="navigation_back">
+            <img src="./assets/right_arrow.png" />
+        </a>
+    </header>
 
-                <img id='close_menu' src="./assets/menu.png">
-
-                <a href="#" class="navigation_back">
-                        <img src="./assets/right_arrow.png">
-                </a>
-        </header>
-
-
-      
-
-        <section id='home' class="home">
-
-
-            <div class="section_0">
-                <div class="contact_social">
-                  <a href="https://www.linkedin.com/in/samy-madi-6a7052174/" target="_blank"><img src="./assets/linkdin.png" ></a>  
-                  <a href="https://www.facebook.com/samy.madi.5" target="_blank" ><img src="./assets/facebook.png" ></a>  
-                  <a href="https://github.com/samymadi" target="_blank" ><img src="./assets/github.png" ></a>  
-                </div>
-                  
+    <section id="home"
+        class="home">
+        <div class="section_0">
+            <div class="contact_social">
+                <a href="https://www.linkedin.com/in/samy-madi-6a7052174/"
+                    target="_blank"><img src="./assets/linkdin.png" /></a>
+                <a href="https://www.facebook.com/samy.madi.5"
+                    target="_blank"><img src="./assets/facebook.png" /></a>
+                <a href="https://github.com/samymadi"
+                    target="_blank"><img src="./assets/github.png" /></a>
             </div>
+        </div>
 
+        <div class="section_1">
+            <h1>Hello,I'm Samy Madi</h1>
+            <h3>Développeur web Full Stack</h3>
+            <p class="simple_para">
+                Dévloppeur web full stack React js & Node js éxperience en création
+                d'interface graphique Création des Rest Api
+                <br />
+            </p>
 
+            <a href="#about"
+                class="button_img">
+                <p>A propos de samy</p>
+                <img src="./assets/right_arrow.png" />
+            </a>
+        </div>
 
-            <div class="section_1">
-                <h1>Hello,I'm Samy Madi</h1>
-                <h3>Développeur web Full Stack</h3>
-                <p>Dévloppeur web full stack React js & Node js éxperience en création d'interface graphique 
-                   <br> alaise avec les Rest Api
+        <div class="section_2">
+            <img src="./assets//Profile_img.jpg"
+                class="profile_img" />
+        </div>
+    </section>
+
+    <article>
+        <section id="about"
+            class="about">
+            <div class="section_0">
+                <h1>About Sam</h1>
+
+                <p class="simple_para">
+                    Etudiant 22 ans Licencié en Ingénierie des Systèmes d'Informations
+                    et des Logiciels Développeur Junior Full Stack alaise avec les
+                    téchnologies du Web.<br />
+                    Maitrisant les algorithmes avancés
                 </p>
 
-                <a  href="#about" class="button_img">
-                    <p>A propos de samy </p>
-                    <img src="./assets/right_arrow.png">
+                <a href="https://drive.google.com/u/0/uc?id=1FeRDZF2f1tLOLMbmlBIWLNHoYQSBIDfq&export=download"
+                    class="button_img">
+                    <p>Télécharger Cv</p>
+                    <img src="./assets/download.png" />
                 </a>
-             
             </div>
+        </section>
 
+        <section id="skills"
+            class="skills">
+            <h1>Skills</h1>
 
+            <div class="container_comptences">
+                <div class="container">
+                    <h2>Langages</h2>
+
+                    <progress-bar-skill pourcentage='60' name='Javascript' ></progress-bar-skill>
+                    <progress-bar-skill pourcentage='80' name='Html' ></progress-bar-skill>
+                    <progress-bar-skill pourcentage='80' name='Css' ></progress-bar-skill>
+                    <progress-bar-skill pourcentage='70' name='Sql' ></progress-bar-skill>
+                    <progress-bar-skill pourcentage='60' name='C#' ></progress-bar-skill>
+                    <progress-bar-skill pourcentage='50' name='Java' ></progress-bar-skill>
+
+                    
+                  
+              
+                </div>
+
+                <div class="container">
+                    <h2>Framework & Outils</h2>
+                    <progress-bar-skill pourcentage='70' name='React Js' ></progress-bar-skill>
+                    <progress-bar-skill pourcentage='60' name='Node Js ' ></progress-bar-skill>
+                    <progress-bar-skill pourcentage='60' name='Git' ></progress-bar-skill>
             
-            <div class="section_2">
-                <img src="./assets//Profile_img.jpg" class="profile_img">
+                </div>
+
+                
             </div>
 
-           
-               
+            <div class="container">
+                <h2>Compétences</h2>
+                <ul>
+                    <li>Création d'interface graphique ergonomique avec Css Html Js</li>
+                    <li>Création des Rest Api en utilisant Node js </li>
+                    <li>Conception des bases de données </li>
+                    <li>Optimisation des requêtes sql</li>
+                    <li>Versionning du projet avec l'outil Git </li>
+                </ul>
+            </div>
         </section>
 
+        <section id='projects' class="projects">
+                <h1>Projects</h1>
 
-        <section id='about' class="about">
-                <h1>About</h1>
+                <div class="projects_container">
+                    <div class="project_box">
+                            <img src="./assets/Home.png" alt="">
+                            <p>Réalisation d'une plateforme web pour la gestion informatisée du dossier médical (Projet PFE) <br> React Js Node Js </p>
+                    </div>
+                </div>
         </section>
-
-
 
         <footer>
-
+            <div class="info_pers"> 
+                <p>Madi Samy</p>
+                <p> samymadi187@gmail.com </p>
+                <p> 0555300442</p>
+            </div>
+           <p>@CopyRight 2021</p>
         </footer>
-        <script src="./index.js" > </script>
-        <script src="./animation.js"></script>
+    </article>
+
+    <script src="./index.js"></script>
+    <script src="./animation.js"></script>
 </body>
-
-
 
 </html>
